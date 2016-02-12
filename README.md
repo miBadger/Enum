@@ -1,1 +1,3 @@
 # Enum
+
+The Enum Component.
