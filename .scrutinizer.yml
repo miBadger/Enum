@@ -2,7 +2,7 @@ build:
     tests:
         override:
             -
-                command: phpunit --colors --coverage-clover=my-coverage-file --verbose
+                command: vendor/bin/phpunit --colors --coverage-clover=my-coverage-file --verbose
                 coverage:
                     file: my-coverage-file
                     format: php-clover
