@@ -10,12 +10,14 @@
 
 namespace miBadger\Enum;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * The enum test class.
  *
  * @since 1.0.0
  */
-class EnumTest extends \PHPUnit_Framework_TestCase
+class EnumTest extends TestCase
 {
 	/** @var The enum. */
 	private $enum;
